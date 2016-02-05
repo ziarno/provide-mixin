@@ -32,7 +32,7 @@ If you're using more than one mixin that wrap the `run` function
 (ex. [`ziarno:restrict-mixin`](https://github.com/ziarno7/restrict-mixin)),
 make sure to add `ProvideMixin` as the *last* mixin in the `mixins` array -
 that way it will be called *first*, and will be able to provide arguments
-to other methods (such as `condition()` and `error()` in [`ziarno:restrict-mixin`](https://github.com/ziarno7/restrict-mixin)))
+to other methods (such as `condition()` and `error()` in [`ziarno:restrict-mixin`](https://github.com/ziarno7/restrict-mixin))
 
 Example:
 
